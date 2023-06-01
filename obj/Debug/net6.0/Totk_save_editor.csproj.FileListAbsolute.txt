@@ -1,0 +1,15 @@
+E:\Tools\codes\C#\Totk_save_editor\bin\Debug\net6.0\Totk_save_editor.exe
+E:\Tools\codes\C#\Totk_save_editor\bin\Debug\net6.0\Totk_save_editor.deps.json
+E:\Tools\codes\C#\Totk_save_editor\bin\Debug\net6.0\Totk_save_editor.runtimeconfig.json
+E:\Tools\codes\C#\Totk_save_editor\bin\Debug\net6.0\Totk_save_editor.dll
+E:\Tools\codes\C#\Totk_save_editor\bin\Debug\net6.0\Totk_save_editor.pdb
+E:\Tools\codes\C#\Totk_save_editor\obj\Debug\net6.0\Totk_save_editor.csproj.AssemblyReference.cache
+E:\Tools\codes\C#\Totk_save_editor\obj\Debug\net6.0\Totk_save_editor.GeneratedMSBuildEditorConfig.editorconfig
+E:\Tools\codes\C#\Totk_save_editor\obj\Debug\net6.0\Totk_save_editor.AssemblyInfoInputs.cache
+E:\Tools\codes\C#\Totk_save_editor\obj\Debug\net6.0\Totk_save_editor.AssemblyInfo.cs
+E:\Tools\codes\C#\Totk_save_editor\obj\Debug\net6.0\Totk_save_editor.csproj.CoreCompileInputs.cache
+E:\Tools\codes\C#\Totk_save_editor\obj\Debug\net6.0\Totk_save_editor.dll
+E:\Tools\codes\C#\Totk_save_editor\obj\Debug\net6.0\refint\Totk_save_editor.dll
+E:\Tools\codes\C#\Totk_save_editor\obj\Debug\net6.0\Totk_save_editor.pdb
+E:\Tools\codes\C#\Totk_save_editor\obj\Debug\net6.0\Totk_save_editor.genruntimeconfig.cache
+E:\Tools\codes\C#\Totk_save_editor\obj\Debug\net6.0\ref\Totk_save_editor.dll
