@@ -1,5 +1,9 @@
 # TOTK_Save_Editor_CS
- Writing a save editor for TOTK using C#
+ 
+As a C++ developer, I have recently embarked on the journey of learning C#. For my first project, I decided to create a save editor for TOTK, and I am utilizing C# to accomplish this task. 
+
+I would like to express my gratitude to [marcrobledo](https://github.com/marcrobledo/savegame-editors/tree/master/zelda-totk) and [lchmagKekse](https://github.com/lchmagKekse/TOTK-SaveGame-Editor) for their valuable contributions and guidance in this endeavor.
+
 
 ### Present UI
 
