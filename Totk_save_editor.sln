@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Totk_save_editor", "Totk_save_editor.csproj", "{F6830A6C-67E8-4F34-92D7-332CB6428199}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Totk_Save_Editor", "Totk_Save_Editor\Totk_Save_Editor.csproj", "{D1CF53E0-CCED-4FD7-80C3-56470BD6AE4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F6830A6C-67E8-4F34-92D7-332CB6428199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F6830A6C-67E8-4F34-92D7-332CB6428199}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F6830A6C-67E8-4F34-92D7-332CB6428199}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F6830A6C-67E8-4F34-92D7-332CB6428199}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1CF53E0-CCED-4FD7-80C3-56470BD6AE4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1CF53E0-CCED-4FD7-80C3-56470BD6AE4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1CF53E0-CCED-4FD7-80C3-56470BD6AE4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1CF53E0-CCED-4FD7-80C3-56470BD6AE4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {A4651199-56CC-4B20-AB8A-B0A0BB6A3170}
+		SolutionGuid = {4A645239-90E4-4595-9D2B-172A522C26E0}
 	EndGlobalSection
 EndGlobal

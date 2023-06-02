@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Totk_Save_Editor/1.0.0": {
+        "runtime": {
+          "Totk_Save_Editor.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Totk_Save_Editor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
