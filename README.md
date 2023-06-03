@@ -9,6 +9,10 @@ I would like to express my gratitude to [marcrobledo](https://github.com/marcrob
 
 ![Image text](https://github.com/Sk-22-2-11/TOTK_Save_Editor_CS/blob/main/pictures/screenshot_ui.jpg)
 
+### Successfully read save files into memory
+
+![Image text](https://github.com/Sk-22-2-11/TOTK_Save_Editor_CS/blob/main/pictures/screenshot_savefile_read.jpg)
+
 ### (Functioning on the way)
 
 
