@@ -1,5 +1,9 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Windows.Forms;
+using TOTK_SaveGame_Editor.Data;
+using TOTK_SaveGame_Editor.Items;
+using TOTK_SaveGame_Editor.Save;
 //using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Totk_Save_Editor
@@ -7,7 +11,7 @@ namespace Totk_Save_Editor
 
     class MainForm : Form
     {
-        
+
 
         public MainForm()
         {
@@ -36,17 +40,17 @@ namespace Totk_Save_Editor
             read = new Button();
             saveall = new Button();
             save = new Button();
-            pictureBox5 = new PictureBox();
-            checkBox7 = new CheckBox();
-            pictureBox1 = new PictureBox();
-            checkBox6 = new CheckBox();
-            pictureBox2 = new PictureBox();
-            checkBox5 = new CheckBox();
-            pictureBox3 = new PictureBox();
-            checkBox4 = new CheckBox();
             pictureBox4 = new PictureBox();
+            checkBox7 = new CheckBox();
+            pictureBox0 = new PictureBox();
+            checkBox6 = new CheckBox();
+            pictureBox1 = new PictureBox();
+            checkBox5 = new CheckBox();
+            pictureBox2 = new PictureBox();
+            checkBox4 = new CheckBox();
+            pictureBox3 = new PictureBox();
             checkBox3 = new CheckBox();
-            pictureBox6 = new PictureBox();
+            pictureBox5 = new PictureBox();
             checkBox2 = new CheckBox();
             flowLayoutPanel1 = new FlowLayoutPanel();
             panel1 = new Panel();
@@ -64,12 +68,12 @@ namespace Totk_Save_Editor
             zonai = new Button();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox0).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             flowLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -152,17 +156,17 @@ namespace Totk_Save_Editor
             groupBox2.Controls.Add(read);
             groupBox2.Controls.Add(saveall);
             groupBox2.Controls.Add(save);
-            groupBox2.Controls.Add(pictureBox5);
-            groupBox2.Controls.Add(checkBox7);
-            groupBox2.Controls.Add(pictureBox1);
-            groupBox2.Controls.Add(checkBox6);
-            groupBox2.Controls.Add(pictureBox2);
-            groupBox2.Controls.Add(checkBox5);
-            groupBox2.Controls.Add(pictureBox3);
-            groupBox2.Controls.Add(checkBox4);
             groupBox2.Controls.Add(pictureBox4);
+            groupBox2.Controls.Add(checkBox7);
+            groupBox2.Controls.Add(pictureBox0);
+            groupBox2.Controls.Add(checkBox6);
+            groupBox2.Controls.Add(pictureBox1);
+            groupBox2.Controls.Add(checkBox5);
+            groupBox2.Controls.Add(pictureBox2);
+            groupBox2.Controls.Add(checkBox4);
+            groupBox2.Controls.Add(pictureBox3);
             groupBox2.Controls.Add(checkBox3);
-            groupBox2.Controls.Add(pictureBox6);
+            groupBox2.Controls.Add(pictureBox5);
             groupBox2.Controls.Add(checkBox2);
             groupBox2.FlatStyle = FlatStyle.Flat;
             groupBox2.ForeColor = Color.FromArgb(255, 192, 128);
@@ -220,16 +224,16 @@ namespace Totk_Save_Editor
             save.UseVisualStyleBackColor = false;
             save.Click += button1_Click;
             // 
-            // pictureBox5
+            // pictureBox4
             // 
-            pictureBox5.BackgroundImage = Properties.Resources.bg_black;
-            pictureBox5.Image = Properties.Resources._blank;
-            pictureBox5.Location = new Point(368, 183);
-            pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(140, 90);
-            pictureBox5.SizeMode = PictureBoxSizeMode.CenterImage;
-            pictureBox5.TabIndex = 13;
-            pictureBox5.TabStop = false;
+            pictureBox4.BackgroundImage = Properties.Resources.bg_black;
+            pictureBox4.Image = Properties.Resources._blank;
+            pictureBox4.Location = new Point(368, 183);
+            pictureBox4.Name = "pictureBox4";
+            pictureBox4.Size = new Size(140, 90);
+            pictureBox4.SizeMode = PictureBoxSizeMode.CenterImage;
+            pictureBox4.TabIndex = 13;
+            pictureBox4.TabStop = false;
             // 
             // checkBox7
             // 
@@ -243,17 +247,17 @@ namespace Totk_Save_Editor
             checkBox7.Text = "Slot_05";
             checkBox7.UseVisualStyleBackColor = true;
             // 
-            // pictureBox1
+            // pictureBox0
             // 
-            pictureBox1.BackgroundImage = Properties.Resources.bg_black;
-            pictureBox1.BackgroundImageLayout = ImageLayout.None;
-            pictureBox1.Image = Properties.Resources._blank;
-            pictureBox1.Location = new Point(103, 63);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(140, 90);
-            pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
-            pictureBox1.TabIndex = 5;
-            pictureBox1.TabStop = false;
+            pictureBox0.BackgroundImage = Properties.Resources.bg_black;
+            pictureBox0.BackgroundImageLayout = ImageLayout.None;
+            pictureBox0.Image = Properties.Resources._blank;
+            pictureBox0.Location = new Point(103, 63);
+            pictureBox0.Name = "pictureBox0";
+            pictureBox0.Size = new Size(140, 90);
+            pictureBox0.SizeMode = PictureBoxSizeMode.CenterImage;
+            pictureBox0.TabIndex = 5;
+            pictureBox0.TabStop = false;
             // 
             // checkBox6
             // 
@@ -267,16 +271,16 @@ namespace Totk_Save_Editor
             checkBox6.Text = "Slot_04";
             checkBox6.UseVisualStyleBackColor = true;
             // 
-            // pictureBox2
+            // pictureBox1
             // 
-            pictureBox2.BackgroundImage = Properties.Resources.bg_black;
-            pictureBox2.Image = Properties.Resources._blank;
-            pictureBox2.Location = new Point(103, 183);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(140, 90);
-            pictureBox2.SizeMode = PictureBoxSizeMode.CenterImage;
-            pictureBox2.TabIndex = 10;
-            pictureBox2.TabStop = false;
+            pictureBox1.BackgroundImage = Properties.Resources.bg_black;
+            pictureBox1.Image = Properties.Resources._blank;
+            pictureBox1.Location = new Point(103, 183);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(140, 90);
+            pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
+            pictureBox1.TabIndex = 10;
+            pictureBox1.TabStop = false;
             // 
             // checkBox5
             // 
@@ -290,16 +294,16 @@ namespace Totk_Save_Editor
             checkBox5.Text = "Slot_03";
             checkBox5.UseVisualStyleBackColor = true;
             // 
-            // pictureBox3
+            // pictureBox2
             // 
-            pictureBox3.BackgroundImage = Properties.Resources.bg_black;
-            pictureBox3.Image = Properties.Resources._blank;
-            pictureBox3.Location = new Point(103, 312);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(140, 90);
-            pictureBox3.SizeMode = PictureBoxSizeMode.CenterImage;
-            pictureBox3.TabIndex = 11;
-            pictureBox3.TabStop = false;
+            pictureBox2.BackgroundImage = Properties.Resources.bg_black;
+            pictureBox2.Image = Properties.Resources._blank;
+            pictureBox2.Location = new Point(103, 312);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(140, 90);
+            pictureBox2.SizeMode = PictureBoxSizeMode.CenterImage;
+            pictureBox2.TabIndex = 11;
+            pictureBox2.TabStop = false;
             // 
             // checkBox4
             // 
@@ -313,16 +317,16 @@ namespace Totk_Save_Editor
             checkBox4.Text = "Slot_02";
             checkBox4.UseVisualStyleBackColor = true;
             // 
-            // pictureBox4
+            // pictureBox3
             // 
-            pictureBox4.BackgroundImage = Properties.Resources.bg_black;
-            pictureBox4.Image = Properties.Resources._blank;
-            pictureBox4.Location = new Point(368, 63);
-            pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(140, 90);
-            pictureBox4.SizeMode = PictureBoxSizeMode.CenterImage;
-            pictureBox4.TabIndex = 12;
-            pictureBox4.TabStop = false;
+            pictureBox3.BackgroundImage = Properties.Resources.bg_black;
+            pictureBox3.Image = Properties.Resources._blank;
+            pictureBox3.Location = new Point(368, 63);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(140, 90);
+            pictureBox3.SizeMode = PictureBoxSizeMode.CenterImage;
+            pictureBox3.TabIndex = 12;
+            pictureBox3.TabStop = false;
             // 
             // checkBox3
             // 
@@ -336,16 +340,16 @@ namespace Totk_Save_Editor
             checkBox3.Text = "Slot_01";
             checkBox3.UseVisualStyleBackColor = true;
             // 
-            // pictureBox6
+            // pictureBox5
             // 
-            pictureBox6.BackgroundImage = Properties.Resources.bg_black;
-            pictureBox6.Image = Properties.Resources._blank;
-            pictureBox6.Location = new Point(368, 312);
-            pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(140, 90);
-            pictureBox6.SizeMode = PictureBoxSizeMode.CenterImage;
-            pictureBox6.TabIndex = 14;
-            pictureBox6.TabStop = false;
+            pictureBox5.BackgroundImage = Properties.Resources.bg_black;
+            pictureBox5.Image = Properties.Resources._blank;
+            pictureBox5.Location = new Point(368, 312);
+            pictureBox5.Name = "pictureBox5";
+            pictureBox5.Size = new Size(140, 90);
+            pictureBox5.SizeMode = PictureBoxSizeMode.CenterImage;
+            pictureBox5.TabIndex = 14;
+            pictureBox5.TabStop = false;
             // 
             // checkBox2
             // 
@@ -522,12 +526,12 @@ namespace Totk_Save_Editor
             groupBox1.PerformLayout();
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox0).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             flowLayoutPanel1.ResumeLayout(false);
             ResumeLayout(false);
         }
@@ -570,17 +574,17 @@ namespace Totk_Save_Editor
         private Button locate;
         private TextBox pathbox;
         private GroupBox groupBox2;
-        private PictureBox pictureBox5;
-        private CheckBox checkBox7;
-        private PictureBox pictureBox1;
-        private CheckBox checkBox6;
-        private PictureBox pictureBox2;
-        private CheckBox checkBox5;
-        private PictureBox pictureBox3;
-        private CheckBox checkBox4;
         private PictureBox pictureBox4;
+        private CheckBox checkBox7;
+        private PictureBox pictureBox0;
+        private CheckBox checkBox6;
+        private PictureBox pictureBox1;
+        private CheckBox checkBox5;
+        private PictureBox pictureBox2;
+        private CheckBox checkBox4;
+        private PictureBox pictureBox3;
         private CheckBox checkBox3;
-        private PictureBox pictureBox6;
+        private PictureBox pictureBox5;
         private CheckBox checkBox2;
         private FlowLayoutPanel flowLayoutPanel1;
         private Panel panel1;
@@ -648,8 +652,25 @@ namespace Totk_Save_Editor
 
         private void read_Click(object sender, EventArgs e)
         {
-            //_SaveFile = new TOTK_SaveFile(FileDialog.FileName);
+
+            TOTK_Caption _Caption;
+            _Caption = new TOTK_Caption(save_path + "\\slot_00");
+            _Caption = new TOTK_Caption(save_path + "\\slot_01");
+            _Caption = new TOTK_Caption(save_path + "\\slot_02");
+            _Caption = new TOTK_Caption(save_path + "\\slot_03");
+            _Caption = new TOTK_Caption(save_path + "\\slot_04");
+            _Caption = new TOTK_Caption(save_path + "\\slot_05");
+
+            this.pictureBox0.Image = Image.FromFile(save_path + "\\slot_00" + "\\caption.png");
+            this.pictureBox1.Image = Image.FromFile(save_path + "\\slot_01" + "\\caption.png");
+            this.pictureBox2.Image = Image.FromFile(save_path + "\\slot_02" + "\\caption.png");
+            this.pictureBox3.Image = Image.FromFile(save_path + "\\slot_03" + "\\caption.png");
+            this.pictureBox4.Image = Image.FromFile(save_path + "\\slot_04" + "\\caption.png");
+            this.pictureBox5.Image = Image.FromFile(save_path + "\\slot_05" + "\\caption.png");
+
+
         }
+
     }
 }
 
