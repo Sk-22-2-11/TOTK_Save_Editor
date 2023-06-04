@@ -90,19 +90,35 @@ namespace TOTK_SaveGame_Editor.Save
 
         public TOTK_Caption(string path)
         {
-            if (!Directory.Exists(path)) return;
+            string[] caption_list = { "\\slot_00", "\\slot_01", "\\slot_02", "\\slot_03", "\\slot_04", "\\slot_05" };
+            IsLoaded = false;
 
-            _Path = path;
-            if (!File.Exists(_Path + "\\caption.sav")) return;
+            for (int i = 0; i < 6; i++)
+            {
+                _Path = path + caption_list[i];
 
-            _Data = File.ReadAllBytes(_Path+ "\\caption.sav");
+                if (!Directory.Exists(_Path))
+                {
+                    //Debug.WriteLine("path not exist: {0}", _Path);
+                    IsLoaded = false;
+                    return;
+                }                
+
+                if (!File.Exists(_Path + "\\caption.sav"))
+                {
+                    //Debug.WriteLine("file not exist");
+                    IsLoaded = false;
+                    return;
+                }
+
+                _Data = File.ReadAllBytes(_Path + "\\caption.sav");              
+
+                LoadOffsets();
+                ReadImage(CAPTION_ADD);
+
+            }
 
             IsLoaded = true;
-
-            LoadOffsets();
-
-            ReadImage(CAPTION_ADD);
-            
         }
 
         private void LoadOffsets()

@@ -142,4 +142,67 @@
   <data name="home_d" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\ico\icons\tabs\home_d.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="armors" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ico\icons\tabs\armors.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="armors_d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ico\icons\tabs\armors_d.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ico\icons\tabs\Bows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bows_d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ico\icons\tabs\Bows_d.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ico\icons\tabs\button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ico\icons\tabs\food.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food_d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ico\icons\tabs\food_d.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="horses" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ico\icons\tabs\horses.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="horses_d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ico\icons\tabs\horses_d.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="items" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ico\icons\tabs\items.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="items_d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ico\icons\tabs\items_d.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ketitems" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ico\icons\tabs\ketitems.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ketitems_d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ico\icons\tabs\ketitems_d.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="others" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ico\icons\tabs\others.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="others_d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ico\icons\tabs\others_d.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shields" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ico\icons\tabs\shields.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shields_d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ico\icons\tabs\shields_d.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Weapons" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ico\icons\tabs\Weapons.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Weapons_d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ico\icons\tabs\Weapons_d.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zonais" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ico\icons\tabs\zonais.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zonais_d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ico\icons\tabs\zonais_d.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

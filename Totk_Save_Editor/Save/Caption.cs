@@ -42,12 +42,13 @@ namespace TOTK_SaveGame_Editor.Save
         {
             
             uint capSize = ReadUInt32(offset);
-
+            //Debug.WriteLine("writting image");
             byte[] valueBytes = new byte[capSize];
             Array.Copy( _Data, offset + 4, valueBytes, 0, capSize);
 
             ImageConverter converter = new ImageConverter();            
             Image img = (Image)converter.ConvertFrom(valueBytes);
+            //Debug.WriteLine(_Path + "\\caption.png");
             img.Save(_Path + "\\caption.png");
 
         }
