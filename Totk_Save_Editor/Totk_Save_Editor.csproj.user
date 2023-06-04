@@ -1,8 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Compile Update="ArmorForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="BowForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="FoodForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="HomeForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="HorseForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="KeyitemForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="MainForm.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MaterialForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="OtherForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="ShieldForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="WeaponForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="ZonaiForm.cs">
+      <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>
 </Project>

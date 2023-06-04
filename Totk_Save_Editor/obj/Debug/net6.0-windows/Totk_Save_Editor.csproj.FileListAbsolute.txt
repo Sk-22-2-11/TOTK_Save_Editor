@@ -34,3 +34,14 @@ E:\Tools\codes\C#\Totk_Save_Editor_sln\Totk_Save_Editor\obj\Debug\net6.0-windows
 E:\Tools\codes\C#\Totk_Save_Editor_sln\Totk_Save_Editor\obj\Debug\net6.0-windows\Totk_Save_Editor.pdb
 E:\Tools\codes\C#\Totk_Save_Editor_sln\Totk_Save_Editor\obj\Debug\net6.0-windows\Totk_Save_Editor.genruntimeconfig.cache
 E:\Tools\codes\C#\Totk_Save_Editor_sln\Totk_Save_Editor\obj\Debug\net6.0-windows\ref\Totk_Save_Editor.dll
+E:\Tools\codes\C#\Totk_Save_Editor_sln\Totk_Save_Editor\obj\Debug\net6.0-windows\Totk_Save_Editor.HomeForm.resources
+E:\Tools\codes\C#\Totk_Save_Editor_sln\Totk_Save_Editor\obj\Debug\net6.0-windows\Totk_Save_Editor.ArmorForm.resources
+E:\Tools\codes\C#\Totk_Save_Editor_sln\Totk_Save_Editor\obj\Debug\net6.0-windows\Totk_Save_Editor.BowForm.resources
+E:\Tools\codes\C#\Totk_Save_Editor_sln\Totk_Save_Editor\obj\Debug\net6.0-windows\Totk_Save_Editor.FoodForm.resources
+E:\Tools\codes\C#\Totk_Save_Editor_sln\Totk_Save_Editor\obj\Debug\net6.0-windows\Totk_Save_Editor.HorseForm.resources
+E:\Tools\codes\C#\Totk_Save_Editor_sln\Totk_Save_Editor\obj\Debug\net6.0-windows\Totk_Save_Editor.KeyitemForm.resources
+E:\Tools\codes\C#\Totk_Save_Editor_sln\Totk_Save_Editor\obj\Debug\net6.0-windows\Totk_Save_Editor.MaterialForm.resources
+E:\Tools\codes\C#\Totk_Save_Editor_sln\Totk_Save_Editor\obj\Debug\net6.0-windows\Totk_Save_Editor.OtherForm.resources
+E:\Tools\codes\C#\Totk_Save_Editor_sln\Totk_Save_Editor\obj\Debug\net6.0-windows\Totk_Save_Editor.ShieldForm.resources
+E:\Tools\codes\C#\Totk_Save_Editor_sln\Totk_Save_Editor\obj\Debug\net6.0-windows\Totk_Save_Editor.WeaponForm.resources
+E:\Tools\codes\C#\Totk_Save_Editor_sln\Totk_Save_Editor\obj\Debug\net6.0-windows\Totk_Save_Editor.ZonaiForm.resources

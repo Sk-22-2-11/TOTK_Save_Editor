@@ -113,9 +113,9 @@ namespace Totk_Save_Editor.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap Bows {
+        internal static System.Drawing.Bitmap bows {
             get {
-                object obj = ResourceManager.GetObject("Bows", resourceCulture);
+                object obj = ResourceManager.GetObject("bows", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace Totk_Save_Editor.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap Bows_d {
+        internal static System.Drawing.Bitmap bows_d {
             get {
-                object obj = ResourceManager.GetObject("Bows_d", resourceCulture);
+                object obj = ResourceManager.GetObject("bows_d", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -136,16 +136,6 @@ namespace Totk_Save_Editor.Properties {
         internal static System.Drawing.Bitmap button {
             get {
                 object obj = ResourceManager.GetObject("button", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
-        /// </summary>
-        internal static System.Drawing.Bitmap button1 {
-            get {
-                object obj = ResourceManager.GetObject("button1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -221,11 +211,21 @@ namespace Totk_Save_Editor.Properties {
         }
         
         /// <summary>
+        ///   查找类似于 (图标) 的 System.Drawing.Icon 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Icon icon {
+            get {
+                object obj = ResourceManager.GetObject("icon", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap items {
+        internal static System.Drawing.Bitmap keyitems {
             get {
-                object obj = ResourceManager.GetObject("items", resourceCulture);
+                object obj = ResourceManager.GetObject("keyitems", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -233,9 +233,9 @@ namespace Totk_Save_Editor.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap items_d {
+        internal static System.Drawing.Bitmap keyitems_d {
             get {
-                object obj = ResourceManager.GetObject("items_d", resourceCulture);
+                object obj = ResourceManager.GetObject("keyitems_d", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -243,9 +243,9 @@ namespace Totk_Save_Editor.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap ketitems {
+        internal static System.Drawing.Bitmap materials {
             get {
-                object obj = ResourceManager.GetObject("ketitems", resourceCulture);
+                object obj = ResourceManager.GetObject("materials", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -253,9 +253,9 @@ namespace Totk_Save_Editor.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap ketitems_d {
+        internal static System.Drawing.Bitmap materials_d {
             get {
-                object obj = ResourceManager.GetObject("ketitems_d", resourceCulture);
+                object obj = ResourceManager.GetObject("materials_d", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -313,9 +313,9 @@ namespace Totk_Save_Editor.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap Weapons {
+        internal static System.Drawing.Bitmap weapons {
             get {
-                object obj = ResourceManager.GetObject("Weapons", resourceCulture);
+                object obj = ResourceManager.GetObject("weapons", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -323,9 +323,9 @@ namespace Totk_Save_Editor.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap Weapons_d {
+        internal static System.Drawing.Bitmap weapons_d {
             get {
-                object obj = ResourceManager.GetObject("Weapons_d", resourceCulture);
+                object obj = ResourceManager.GetObject("weapons_d", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

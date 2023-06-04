@@ -5,7 +5,7 @@ As a C++ developer, I have recently embarked on the journey of learning C#. For 
 I would like to express my gratitude to [marcrobledo](https://github.com/marcrobledo/savegame-editors/tree/master/zelda-totk) and [lchmagKekse](https://github.com/lchmagKekse/TOTK-SaveGame-Editor) for their valuable contributions and guidance in this endeavor.
 
 
-### New UI
+### UI adjusted and update child forms to display categorical items
 
 ![Image text](https://github.com/Sk-22-2-11/TOTK_Save_Editor_CS/blob/main/pictures/screenshot_ui.jpg)
 
