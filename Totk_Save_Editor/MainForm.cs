@@ -556,6 +556,7 @@ namespace Totk_Save_Editor
             // panel2
             // 
             panel2.BackColor = Color.Transparent;
+            panel2.Font = new Font("Palatino Linotype", 10.2857141F, FontStyle.Bold, GraphicsUnit.Point);
             panel2.Location = new Point(647, 101);
             panel2.Name = "panel2";
             panel2.Size = new Size(900, 850);
