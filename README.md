@@ -28,4 +28,4 @@ Fotunately, progressing was made.
 
 ### Item display - Page of Bows
 
-![Page of bows](https://github.com/Sk-22-2-11/TOTK_Save_Editor_CS/blob/main/pictures/screenshot_savefile_read_changed.jpg)
+![Page of bows](https://github.com/Sk-22-2-11/TOTK_Save_Editor_CS/blob/main/pictures/screenshot_savefile_bows.jpg)
